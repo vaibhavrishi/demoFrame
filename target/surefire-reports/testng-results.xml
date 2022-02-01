@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-01T16:59:26 IST" name="Suite" finished-at="2022-02-01T17:01:03 IST" duration-ms="97536">
+    <groups>
+      <group name="Smoke test">
+        <method signature="CreateOrganizationNew.createOrgTest()[pri:0, instance:vtiger.com.create.organition.Test.CreateOrganizationNew@367ffa75]" name="createOrgTest" class="vtiger.com.create.organition.Test.CreateOrganizationNew"/>
+        <method signature="CreatenewContactNew.createcontactTest()[pri:0, instance:vtiger.com.create.contact.Test.CreatenewContactNew@2aceadd4]" name="createcontactTest" class="vtiger.com.create.contact.Test.CreatenewContactNew"/>
+      </group> <!-- Smoke test -->
+      <group name="regression test">
+        <method signature="CreateOrganizationNew.createoeganwithIndEducationTest()[pri:0, instance:vtiger.com.create.organition.Test.CreateOrganizationNew@367ffa75]" name="createoeganwithIndEducationTest" class="vtiger.com.create.organition.Test.CreateOrganizationNew"/>
+        <method signature="CreatenewContactNew.orgWithContactTest()[pri:0, instance:vtiger.com.create.contact.Test.CreatenewContactNew@2aceadd4]" name="orgWithContactTest" class="vtiger.com.create.contact.Test.CreatenewContactNew"/>
+      </group> <!-- regression test -->
+    </groups>
+    <test started-at="2022-02-01T16:59:26 IST" name="Test" finished-at="2022-02-01T17:01:03 IST" duration-ms="97536">
+      <class name="vtiger.com.create.contact.Test.CreatenewContactNew">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:vtiger.com.create.contact.Test.CreatenewContactNew@2aceadd4]" started-at="2022-02-01T17:00:10 IST" name="configBC" finished-at="2022-02-01T17:00:14 IST" duration-ms="4426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:vtiger.com.create.contact.Test.CreatenewContactNew@2aceadd4]" started-at="2022-02-01T17:00:14 IST" name="configBM" finished-at="2022-02-01T17:00:18 IST" duration-ms="3315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createcontactTest()[pri:0, instance:vtiger.com.create.contact.Test.CreatenewContactNew@2aceadd4]" started-at="2022-02-01T17:00:18 IST" name="createcontactTest" finished-at="2022-02-01T17:00:32 IST" duration-ms="14460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontactTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:vtiger.com.create.contact.Test.CreatenewContactNew@2aceadd4]" started-at="2022-02-01T17:00:32 IST" name="configAM" finished-at="2022-02-01T17:00:34 IST" duration-ms="1629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:vtiger.com.create.contact.Test.CreatenewContactNew@2aceadd4]" started-at="2022-02-01T17:00:34 IST" name="configBM" finished-at="2022-02-01T17:00:36 IST" duration-ms="2701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="orgWithContactTest()[pri:0, instance:vtiger.com.create.contact.Test.CreatenewContactNew@2aceadd4]" started-at="2022-02-01T17:00:36 IST" name="orgWithContactTest" finished-at="2022-02-01T17:01:01 IST" duration-ms="24809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orgWithContactTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:vtiger.com.create.contact.Test.CreatenewContactNew@2aceadd4]" started-at="2022-02-01T17:01:01 IST" name="configAM" finished-at="2022-02-01T17:01:03 IST" duration-ms="1606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:vtiger.com.create.contact.Test.CreatenewContactNew@2aceadd4]" started-at="2022-02-01T17:01:03 IST" name="configAC" finished-at="2022-02-01T17:01:03 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- vtiger.com.create.contact.Test.CreatenewContactNew -->
+      <class name="vtiger.com.create.organition.Test.CreateOrganizationNew">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:vtiger.com.create.organition.Test.CreateOrganizationNew@367ffa75]" started-at="2022-02-01T16:59:26 IST" name="configBS" finished-at="2022-02-01T16:59:26 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:vtiger.com.create.organition.Test.CreateOrganizationNew@367ffa75]" started-at="2022-02-01T16:59:26 IST" name="configBC" finished-at="2022-02-01T16:59:31 IST" duration-ms="5758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:vtiger.com.create.organition.Test.CreateOrganizationNew@367ffa75]" started-at="2022-02-01T16:59:31 IST" name="configBM" finished-at="2022-02-01T16:59:35 IST" duration-ms="3802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrgTest()[pri:0, instance:vtiger.com.create.organition.Test.CreateOrganizationNew@367ffa75]" started-at="2022-02-01T16:59:35 IST" name="createOrgTest" finished-at="2022-02-01T16:59:51 IST" duration-ms="15477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:vtiger.com.create.organition.Test.CreateOrganizationNew@367ffa75]" started-at="2022-02-01T16:59:51 IST" name="configAM" finished-at="2022-02-01T16:59:52 IST" duration-ms="1590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:vtiger.com.create.organition.Test.CreateOrganizationNew@367ffa75]" started-at="2022-02-01T16:59:52 IST" name="configBM" finished-at="2022-02-01T16:59:55 IST" duration-ms="2696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createoeganwithIndEducationTest()[pri:0, instance:vtiger.com.create.organition.Test.CreateOrganizationNew@367ffa75]" started-at="2022-02-01T16:59:55 IST" name="createoeganwithIndEducationTest" finished-at="2022-02-01T17:00:06 IST" duration-ms="10656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createoeganwithIndEducationTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:vtiger.com.create.organition.Test.CreateOrganizationNew@367ffa75]" started-at="2022-02-01T17:00:06 IST" name="configAM" finished-at="2022-02-01T17:00:10 IST" duration-ms="3925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:vtiger.com.create.organition.Test.CreateOrganizationNew@367ffa75]" started-at="2022-02-01T17:00:10 IST" name="configAC" finished-at="2022-02-01T17:00:10 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:vtiger.com.create.organition.Test.CreateOrganizationNew@367ffa75]" started-at="2022-02-01T17:01:03 IST" name="configAS" finished-at="2022-02-01T17:01:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- vtiger.com.create.organition.Test.CreateOrganizationNew -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

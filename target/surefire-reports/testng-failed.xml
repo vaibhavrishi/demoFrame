@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="vtiger.com.create.contact.Test.CreatenewContactNew">
+        <methods>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configAM"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configBM"/>
+          <include name="createcontactTest"/>
+          <include name="orgWithContactTest"/>
+        </methods>
+      </class> <!-- vtiger.com.create.contact.Test.CreatenewContactNew -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
